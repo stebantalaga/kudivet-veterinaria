@@ -1,0 +1,166 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contenedor-principal {
+  height: 100%;
+  display: flex;
+  align-content: center;
+}
+
+.padre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  border: 1px solid #DEE2EB;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.tamaño-imagen {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.kudivet-logo {
+  height: 120px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.formulario {
+ background-color: #ffffff;  
+}
+
+.cajatexto {
+  padding: 8px 10px;
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.btn-large {
+  padding: 12px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn-form {
+  background-color: #6F48FF;
+  color: #fff;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.wrap-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.table-item {
+  /*width: 100%;*/
+  overflow: hidden;
+  padding: 8px 16px;
+  text-align: left;
+}
+
+.table-header {
+  background-color: #5C6474;
+  color: #fff;
+}
+.table-main {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid #DEE2EB;
+  border-radius: 6px;
+}
+
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #DEE2EB;
+}
+
+.wrap-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.container {
+  margin-top: 24px;
+}
+
+.label-form {
+  width: 100%;
+  text-align: left;
+}
+.btn-custom {
+  background-color: #6F48FF;
+}
+/* Estilos para los Tabs*/
+.baseTab{
+  border-left: 1px solid #e9ecef !important;
+  cursor: pointer;
+}
+
+.baseTab:hover{
+  background-color: #6F48FF !important;
+  color: white !important;
+}
+
+.activeTab{
+  background-color: #6F48FF !important;
+  color: white !important;
+}
+
+/*
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+*/
